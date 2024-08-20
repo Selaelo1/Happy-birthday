@@ -31,7 +31,7 @@ hr{
 
 .image {
   width: 500px;
-  height: 500px;
+  height: 600px;
   border-radius: 7px;
   object-fit: cover;
 }
@@ -43,6 +43,18 @@ hr{
   margin-right: 50px;
 }
 
+.audio-link{
+  color: #0056b3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: 2sec, ease-in-out;
+}
+
+.audio-link:hover{
+  color: #525353;
+}
+
+
+
 h2{
   font-size: 36px;
     color: #BBB3A8;
@@ -50,6 +62,19 @@ h2{
     text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
     /* shadow effect */
 }
+
+h3{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ color: #C9C9C9;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 36px;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 .messages {
   display: flex;
