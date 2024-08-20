@@ -1,11 +1,13 @@
-const readMoreButtons = document.querySelectorAll('.read-more');
+const readMoreLinks = document.querySelectorAll('.read-more');
 
-readMoreButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const messageId = button.getAttribute('data-message-id');
-        const messageText = document.getElementById(messageId);
-        messageText.classList.toggle('expanded');
-        button.textContent = messageText.classList.contains('expanded') ? 'Read Less' : 'Read More';
-    });
+readMoreLinks.forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    link.href = 'javascript:void(0)';
+    const messageId = link.getAttribute('data-message-id');
+    const messageContainer = document.getElementById(messageId);
+    messageContainer.classList.toggle('expanded');
+  });
 });
+
 
