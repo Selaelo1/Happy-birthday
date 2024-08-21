@@ -158,6 +158,7 @@ h4{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 .video-container {
   display: flex;
   flex-direction: column;
@@ -166,6 +167,7 @@ h4{
   padding: 20px;
   border-radius: 20px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .video-row {
@@ -187,4 +189,19 @@ h4{
   border-radius: 10px;
   height: 600px;
   width: 600px;
+}
+
+h5{
+  color: #AC63F7;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 0 #DAD4FC, 4px 4px 0 #DAD4FC;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h6{
+  color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px 0 #DE9167, 4px 4px 0 #DE9167;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
