@@ -192,7 +192,7 @@ h4{
 }
 
 h5{
-  color: #AC63F7;
+  color: #C7395F;
   text-align: center;
   font-size: 40px;
   text-shadow: 2px 2px 0 #DAD4FC, 4px 4px 0 #DAD4FC;
@@ -205,3 +205,131 @@ h6{
     text-shadow: 2px 2px 0 #DE9167, 4px 4px 0 #DE9167;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .image-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .image {
+    width: 400px;
+    height: 500px;
+  }
+
+  .text-container {
+    font-size: 20px;
+  }
+
+  .message-container {
+    width: calc(33.33% - 20px);
+  }
+
+  .video-item video {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .image-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .image {
+    width: 300px;
+    height: 400px;
+  }
+
+  .text-container {
+    font-size: 18px;
+  }
+
+  .message-container {
+    width: calc(50% - 20px);
+  }
+
+  .video-item video {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 200px;
+  }
+
+  .image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .text-container {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .message-container {
+    width: 100%;
+  }
+
+  .video-item video {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-container {
+    height: 150px;
+  }
+
+  .image {
+    height: 200px;
+  }
+
+  .text-container {
+    font-size: 14px;
+  }
+
+  .message-container {
+    padding: 10px;
+  }
+
+  .video-item video {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .image-container {
+    height: 100px;
+  }
+
+  .image {
+    height: 150px;
+  }
+
+  .text-container {
+    font-size: 12px;
+  }
+
+  .message-container {
+    padding: 5px;
+  }
+
+  .video-item video {
+    height: 100px;
+    width: 100px;
+  }
+}
+
